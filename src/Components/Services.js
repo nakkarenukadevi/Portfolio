@@ -7,11 +7,11 @@ import service_4 from "./images/service-4.svg"
 
 const Services = () => {
     return (
-        <div className='absolute top-16  services_wrapper bg-dark p-10 w-full'>
+        <div className='absolute top-16  services_wrapper bg-dark p-10 w-full mb-10'>
             <div className="container ">
                 <div className="row ">
                     <div className="col-sm-12 text-center mb-4">
-                        <span className="subtitle">What i can do for you </span>
+                        <span className="text-white">What i can do for you </span>
                         <h2 className="text-white">My Awesome Service</h2>
                         <p className="text-white">There are many verations of passages of Lorem
                             ipsum dolor sit amet</p>
@@ -71,7 +71,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-4">
+                    <div className="col-lg-4 col-md-6 mb-20">
                         <div className="card">
                             <div className="card-body text-md-start text-center">
                                 <img src={service_3} alt="service" className="img-fluid mb-4" />

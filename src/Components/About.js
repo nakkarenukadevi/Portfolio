@@ -4,7 +4,7 @@ import about from "./images/about.jpg"
 
 const About = () => {
     return <>
-        <div className='about bg-dark h-lvh'>
+        <div className='about bg-dark h-screen mb-10'>
             <div className='absolute top-28 left-10 '>
                 <div className='container  flex'>
                     <div className='mx-10'>
