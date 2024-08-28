@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom"
-import Services from "./Services"
-import Portpolie from "./Portpolie"
+
+import Portfolio from "./Portfolio"
 import About from "./About"
 import Home from "./Home"
 import App from "../App"
@@ -20,14 +20,10 @@ let router = createBrowserRouter([
 
             }
             ,
-            {
-                path: "/services",
-                element: <Services />
 
-            },
             {
-                path: "/portpolie",
-                element: <Portpolie />
+                path: "/portfolio",
+                element: <Portfolio />
 
             },
             {

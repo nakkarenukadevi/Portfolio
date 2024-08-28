@@ -10,14 +10,14 @@ import Landing from "./images/App-Landing-Page.png"
 
 
 
-const Portpolie = () => {
+const Portfolio = () => {
     return (
         <div className='absolute top-26  w-full'>
             <section id="portfolio" className="portfolio_wrapper bg-dark ">
                 <div className="contaniner ">
                     <div className="row mt-20">
                         <div className="col-sm-12 text-center mb-4">
-                            <span className="subtitle text-white mt-10">My Comlete project</span>
+
                             <h2>My Latest project</h2>
                             <p>There are many variations of passages of
                                 Lorem ipsum dolor sit amet.</p>
@@ -103,4 +103,4 @@ const Portpolie = () => {
     )
 }
 
-export default Portpolie
+export default Portfolio

@@ -12,11 +12,9 @@ const Header = () => {
                     <li className='mx-3 u_underline  list-none '>
                         <Link to="/about" className='  p-3 rounded-lg '>About</Link>
                     </li>
+
                     <li className='mx-3 u_underline  list-none '>
-                        <Link to="/services" className=' p-3 rounded-lg '>Services</Link>
-                    </li>
-                    <li className='mx-3 u_underline  list-none '>
-                        <Link to="/portpolie" className=' p-3 rounded-lg '>Portpolie</Link>
+                        <Link to="/portfolio" className=' p-3 rounded-lg '>Portfolio</Link>
                     </li>
                     <li className='mx-3 u_underline  list-none '>
                         <Link to="/contact" className=' p-3 rounded-lg '>Contact</Link>
